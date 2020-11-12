@@ -6,13 +6,13 @@
 - community：组织名称，当前组织名称openeuler和src-openeuler
 - repositories：该组织下所有仓库信息，包含子字段
 
-二级字段（一级字段repositories下）：
+二级字段（一级字段repositories下），四个一组：
 - name：仓库名称
 - description：仓库信息描述
 - type：仓库类型，包括public/private
 - branches：仓库下所有分支信息，包含子字段
  
-三级字段（二级字段branches下）：
+三级字段（二级字段branches下），三个一组：
  - name：分支名称
  - type：分支类型，可选protected/normal/readonly，对照码云分支属性设置，缺省为protected
  - create_from：分支创建起点，新创master分支时该字段置空，新创其他分支时设置已存在的分支名或tag名，缺省为master
