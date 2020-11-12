@@ -15,7 +15,7 @@
 三级字段（二级字段branches下）：
  - name：分支名称
  - type：分支类型，可选protected/normal/readonly，对照码云分支属性设置，缺省为protected
- - create_from：分支创建起点，缺省为master
+ - create_from：分支创建起点，可以是合法分支名和tag名，缺省为master
 
 文件样例截图：
 ![enter image description here](https://gitee.com/ci-bot/build-test/raw/master/repocfgyaml.png)
