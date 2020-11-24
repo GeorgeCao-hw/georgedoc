@@ -20,7 +20,6 @@
 
 样例：
 
- ---
 community: src-openeuler
 repositories:
 -- name: A-Tune
@@ -36,10 +35,6 @@ repositories:
 &ensp; protected_branches:
 &ensp; -- master
 &ensp; type: public
-
----
-
-
 
 ### 版本1.1
 配置文件以yaml格式承载，共分三级结构：
