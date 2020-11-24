@@ -39,5 +39,3 @@
  - type：分支类型，可选protected/normal/readonly，对照码云分支属性设置，缺省为protected
  - create_from：分支创建起点，新创master分支时该字段置空，新创其他分支时设置已存在的分支名或tag名，缺省为master
 
-文件样例截图：
-![enter image description here](https://gitee.com/ci-bot/build-test/raw/master/repocfgyaml.png)
