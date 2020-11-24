@@ -7,7 +7,7 @@ def transferyaml(oldyamlname, newyamlname):
 
     newyaml_patch = os.path.join(file_path, newyamlname)
     newyaml = open(newyaml_patch, 'w', encoding="utf-8")
-    version = {"version": "v1.0"}
+    version = {"version": "v1.1"}
     yaml.dump(version, newyaml)
 
     oldyamlpath = os.path.join(file_path, oldyamlname)
