@@ -19,7 +19,7 @@
 - upstream：上游仓库地址，可选字段
 
 样例：
-
+```
 community: src-openeuler
 repositories:
 -- name: A-Tune
@@ -35,7 +35,7 @@ repositories:
 &ensp; protected_branches:
 &ensp; -- master
 &ensp; type: public
-
+```
 ### 版本1.1
 配置文件以yaml格式承载，共分三级结构：
 
@@ -58,9 +58,8 @@ repositories:
  - create_from：分支创建起点，新创master分支时该字段置空，新创其他分支时设置已存在的分支名或tag名，缺省为master
 
 样例：
-
- ---
- version: v1.1
+```
+version: v1.1
 community: src-openeuler
 repositories:
 -- name: A-Tune
@@ -82,5 +81,4 @@ repositories:
 &ensp; -- name: master
 &emsp;&emsp; type: protected
 &ensp; type: public
-
----
+```
