@@ -22,19 +22,19 @@
 ```
 community: src-openeuler
 repositories:
--- name: A-Tune
-&ensp; description: 'This is a repo for ……'
-&ensp; protected_branches:
-&ensp; -- master
-&ensp; -- openEuler-20.03-LTS
-&ensp; -- openEuler-20.09
-&ensp; type: public
--- name: A-Tune-UI
-&ensp; description: 'Web server for A-Tune'
-&ensp; upstream: https://gitee.com/openeuler/A-Tune-UI
-&ensp; protected_branches:
-&ensp; -- master
-&ensp; type: public
+- name: A-Tune
+  description: 'This is a repo for ……'
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  - openEuler-20.09
+  type: public
+- name: A-Tune-UI
+  description: 'Web server for A-Tune'
+  upstream: https://gitee.com/openeuler/A-Tune-UI
+  protected_branches:
+  - master
+  type: public
 ```
 ### 版本1.1
 配置文件以yaml格式承载，共分三级结构：
@@ -62,23 +62,23 @@ repositories:
 version: v1.1
 community: src-openeuler
 repositories:
--- name: A-Tune
-&ensp; description: 'This is a repo for ……'
-&ensp; branches:
-&ensp; -- name: master
-&emsp;&emsp; type: protected
-&ensp; -- openEuler-20.03-LTS
-&emsp;&emsp; type: protected
-&emsp;&emsp; create_from: master
-&ensp; -- openEuler-20.09
-&emsp;&emsp; type: protected
-&emsp;&emsp; create_from: master
-&ensp; type: public
--- name: A-Tune-UI
-&ensp; description: 'Web server for A-Tune'
-&ensp; upstream: https://gitee.com/openeuler/A-Tune-UI
-&ensp; branches:
-&ensp; -- name: master
-&emsp;&emsp; type: protected
-&ensp; type: public
+- name: A-Tune
+  description: 'This is a repo for ……'
+  branches:
+  - name: master
+    type: protected
+  - openEuler-20.03-LTS
+    type: protected
+    create_from: master
+  - openEuler-20.09
+    type: protected
+    create_from: master
+  type: public
+- name: A-Tune-UI
+  description: 'Web server for A-Tune'
+  upstream: https://gitee.com/openeuler/A-Tune-UI
+  branches:
+  - name: master
+    type: protected
+  type: public
 ```
