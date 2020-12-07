@@ -1,10 +1,11 @@
-# 如何完成CLA签署
 
-## 企业代表签署流程
+# CLA签署流程
 
-## 个人签署流程
+## 如果您是企业签署责任人，您需要
+1.代表企业完成企业CLA文件签署
+2.为企业指定授权管理员
 
-
+### 如何完成企业CLA签署
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NDY2NTU0XX0=
+eyJoaXN0b3J5IjpbLTU3MTMwNTUzNCw2Nzg0NjY1NTRdfQ==
 -->
