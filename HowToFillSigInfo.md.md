@@ -37,7 +37,7 @@ maintainers:
 - giteeid: dotsheng
   name: DongDaJian
   organization: Huawei
-  email: 999999999@qq.com
+  email: 123456789@qq.com
 - giteeid: immjoey
   name: MaMouGE
   organization: CASC
