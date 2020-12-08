@@ -1,7 +1,7 @@
 # sig-info文件格式说明
 背景：随着openEuler社区各类自动化工具和流程的完善，需要提取准确的sig信息。例如会议预定系统、网站展示、代码仓权限管理等都需要准确的sig信息。当前sig信息记录在community仓库sig目录下，能获准确取到的信息包括该sig的maintainer的码云ID（通过OWNER文件获取）和每个sig所管辖的仓库（通过sig.yaml获取）。但该sig的邮件列表信息，maintainer的邮件和名称等联系信息，sig组的描述信息等不能完整准确地从README中获取到。因此希望新增一个yaml文件以规范sig组信息完善。
 
-## 文件规范
+## 格式规范
 配置文件以yaml格式承载，包含五个基本元素：
 | 字段 | 类型 | 说明 |
 |--|--|--|
@@ -28,6 +28,7 @@
 | type | 枚举, 可选code或者rpm |区分是代码仓还是二进制包仓|
 | url | 字符串 |仓库地址|
 
+## 样例：
 ```
 name: Infrastructure
 desc: This is a template sig info.
