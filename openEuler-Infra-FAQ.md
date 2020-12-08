@@ -11,7 +11,7 @@
 </ol>
 <hr>
 <ol start="2">
-<li><strong>请问非maintainer的普通贡献者是否可以直接往非保护分支push代码</strong><br>
+<li><strong>请问普通贡献者（非maintainer）是否可以直接往非保护分支push代码？</strong><br>
 抱歉，普通贡献者不能直接向仓库push代码，包括保护分支和非保护分支。<br>
 保护分支与非保护分支的区别在于maintainer是否可以直接push；如果是非保护分支，maintainer可以有权限直接push；如果是保护分支maintainer也没有权限直接push，只能通过评估最终由CI-bot代为合入。</li>
 </ol>
@@ -27,7 +27,9 @@
 通过评论/lgtm /approve合入代码从流程上增加了评审环节，保证一份代码的合入至少需要提交者以外的一位maintainer的评审同意，即便提交者本人是maintainer也需要另一位maintainer同意。</li>
 </ol>
 <hr>
-<ol start="6">
-<li><strong>请问openEuler社区仓库下都有哪些场景命令，分别都是什么含义？</strong></li>
+<ol start="5">
+<li><strong>请问openEuler社区仓库评论区都支持哪些命令，分别都是什么含义？</strong><br>
+目前社区仓库评论区主要支持的命令:<br>
+<a href="https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md">https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md</a></li>
 </ol>
 
