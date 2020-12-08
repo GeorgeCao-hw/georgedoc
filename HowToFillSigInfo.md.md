@@ -10,19 +10,24 @@
 | maillist | 字符串 | sig组邮件列表信息 |
 | maintainers | 清单 | sig组所有maintainer名单 |
 | repositories| 清单 | sig组所管辖的码云仓库信息 |
+
 其中 maintainers 清单中每一条记录代表一位maintainer的个人信息：
+
 | 字段 | 类型 | 说明 |
 |--|--|--|
 | giteeid | 字符串 | maintainer的gitee ID, 必填 |
 | name | 字符串 | maintainer的姓名, 选填  |
 | organization| 字符串 | maintainer所在组织, 选填 |
 | email| 字符串 | maintainer个人邮箱地址, 选填 |
+
 其中 repositories 清单中每一条记录为sig所管理的一个仓库信息：
+
 | 字段 | 类型 |  说明 |
 |--|--|--|
 | repo | 字符串 | 仓库名称 |
 | type | 枚举, 可选code或者rpm |区分是代码仓还是二进制包仓|
 | url | 字符串 |仓库地址|
+
 ```
 name: Infrastructure
 desc: This is a template sig info.
