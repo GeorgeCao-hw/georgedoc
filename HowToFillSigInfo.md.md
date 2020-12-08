@@ -1,5 +1,5 @@
 # sig-info文件格式说明
-背景：随着openEuler社区各类自动化工具和流程的完善，需要提取准确的sig信息。例如会议预定系统、网站展示、代码仓权限管理等都需要准确的sig信息。当前sig信息记录在community仓库sig目录下，能获准确取到的信息包括该sig的maintainer的码云ID（通过OWNER文件获取）和每个sig所管辖的仓库（通过sig.yaml获取）。但该sig的邮件列表信息，maintainer的邮件和名称等联系信息，sig组的描述信息等不能完整准确地从README中获取到。因此希望新增一个yaml文件以规范sig组信息完善。
+背景：随着openEuler社区各类自动化工具和流程的完善，需要提取准确的sig信息。例如会议预定系统、网站展示、代码仓权限管理等都需要准确的sig信息。当前sig信息记录在community仓库sig目录下，能获准确取到的信息包括该sig的maintainer的码云ID（通过OWNER文件获取）和每个sig所管辖的仓库名称（通过sig.yaml获取）。但该sig的邮件列表信息，maintainer的邮件和名称等联系信息，sig组的描述信息等不能完整准确获取，只能从README中获得部分，且格式不统一。因此新增一个yaml文件以规范sig组信息管理。
 
 ## 格式规范
 配置文件以yaml格式承载，包含五个基本元素：
