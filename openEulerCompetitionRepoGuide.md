@@ -79,15 +79,11 @@
 <tr>
 <td>members</td>
 <td>字符串数组</td>
-<td>需要添加为仓库成员的参赛队员gitee ID；</td>
-</tr>
-<tr>
-<td>只有此处添加了gitee ID的仓库成员才有权限往仓库提交代码；由于代码仓限制，每个仓库仅能添加4位成员，其中一位或两位导师；如果团队成员数大于3可以通过其他参赛队员提交，也可以动态调整仓库成员名单获得仓库成员权限提交；必填</td>
-<td></td>
-<td></td>
+<td>需要添加为仓库成员的参赛队员gitee ID；只有此处添加了gitee ID的仓库成员才有权限往仓库提交代码；由于代码仓限制，每个仓库仅能添加4位成员，其中一位或两位导师；如果团队成员数大于3可以通过其他参赛队员提交，也可以动态调整仓库成员名单获得仓库成员权限提交；必填</td>
 </tr>
 </tbody>
-</table><pre><code>community: openeuler2020
+</table><h2 id="样例">样例</h2>
+<pre><code>community: openeuler2020
 giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 0000
