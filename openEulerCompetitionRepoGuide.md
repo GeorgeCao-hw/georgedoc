@@ -20,6 +20,11 @@
 </thead>
 <tbody>
 <tr>
+<td>verison</td>
+<td>浮点数</td>
+<td>文件规范版本，由大赛组委会指定</td>
+</tr>
+<tr>
 <td>community</td>
 <td>字符串</td>
 <td>组织名称，由大赛组委会指定</td>
@@ -27,7 +32,7 @@
 <tr>
 <td>giteeurl</td>
 <td>字符串</td>
-<td>在码云上的组织URL地址</td>
+<td>在码云上的组织URL地址，由大厦组委会指定</td>
 </tr>
 <tr>
 <td>teams</td>
@@ -83,7 +88,8 @@
 </tr>
 </tbody>
 </table><h2 id="样例">样例</h2>
-<pre><code>community: openeuler2020
+<pre><code>version: 1.0
+community: openeuler2020
 giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 0000
