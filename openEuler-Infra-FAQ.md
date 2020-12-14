@@ -32,5 +32,13 @@
 <li><strong>请问openEuler社区仓库评论区都支持哪些命令，分别都是什么含义？</strong><br>
 目前社区仓库评论区主要支持的命令:<br>
 <a href="https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md">https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md</a></li>
+<li><strong>请问在华为公司内部使用git clone从码云克隆代码报超时怎么办？( Failed to connect to <a href="http://gitee.com">gitee.com</a> port 443: Timed out )</strong><br>
+华为公司内克隆外网代码的时候提示<br>
+fatal: unable to access ‘<a href="https://gitee.com/openeuler/community.git/">https://gitee.com/openeuler/community.git/</a>’: Failed to connect to <a href="http://gitee.com">gitee.com</a> port 443: Timed out<br>
+解决方法是依次配置：<br>
+git config --global https.proxy <a href="https://%E5%9F%9F%E8%B4%A6%E5%8F%B7:%E5%AF%86%E7%A0%81@proxycn2.huawei.com:8080">https://域账号:密码@proxycn2.huawei.com:8080</a><br>
+git config --global http.proxy <a href="http://%E5%9F%9F%E8%B4%A6%E5%8F%B7:%E5%AF%86%E7%A0%81@proxycn2.huawei.com:8080">http://域账号:密码@proxycn2.huawei.com:8080</a><br>
+git config --global http.sslVerify false<br>
+注意如果个人域账号密码中有特殊字符需要转义。</li>
 </ol>
 
