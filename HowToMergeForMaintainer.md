@@ -17,7 +17,7 @@
 <li>在PR评论区评论 <strong>/lgtm</strong> 和 <strong>/approve</strong><br>
 <img src="image/5.png" alt="enter image description here"><br>
 <img src="image/6.png" alt="enter image description here"></li>
-<li>检查PR是否已经为 <strong>已合入</strong><br>
+<li>检查PR是否已经为 <strong>已合入</strong>，如果状态为<strong>开启的</strong>请及时 <em>@georgecao</em><br>
 <img src="image/7.png" alt="enter image description here"></li>
 </ol>
 
