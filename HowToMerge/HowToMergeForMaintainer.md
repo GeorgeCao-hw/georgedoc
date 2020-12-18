@@ -9,7 +9,7 @@
 <img src="image/1.png" alt="enter image description here"></li>
 <li>如果有<strong>ci_successful</strong>绿色标签，表示后台部分的检查已经通过，请执行第5步检查。<br>
 <img src="image/2.png" alt="enter image description here"></li>
-<li>如果有<strong>ci_failed</strong>红色标签，表示后台检查未通过，检查未通过的具体项目会在PR的评论信息中提示；请执行第4步；(如果没有解决问题，带有问题执行步骤7进行强制合入，会导致自动建仓库失败)<br>
+<li>如果有<strong>ci_failed</strong>红色标签，表示后台检查未通过，检查未通过的具体项目会在PR的评论信息中提示；请执行第4步；(如果没有解决问题，带有问题执行步骤6进行强制合入，会导致自动建仓库失败)<br>
 <img src="image/3.png" alt="enter image description here"><br>
 <img src="image/8.png" alt="enter image description here"></li>
 <li>通知提交人（评论中@提交人）按要求修改，再重新提交PR。</li>
