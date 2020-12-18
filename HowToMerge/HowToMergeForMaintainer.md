@@ -5,7 +5,7 @@
 
 <h1 id="how-to-merge-（for-maintainer）">How To Merge （for maintainer）?</h1>
 <ol>
-<li>检查PR标签状态：重点关注PR是否有<br>
+<li>检查PR标签状态：重点关注PR是否有<strong>ci_failed</strong> 或者<strong>ci_successful</strong> 标签<br>
 <img src="image/1.png" alt="enter image description here"></li>
 <li>如果有<strong>ci_successful</strong>绿色标签，表示后台部分的检查已经通过，请执行第5步检查。<br>
 <img src="image/2.png" alt="enter image description here"></li>
