@@ -16,6 +16,8 @@
 <img src="image/4.png" alt="enter image description here"></li>
 <li>在PR评论区评论 <strong>/lgtm</strong> 和 <strong>/approve</strong><br>
 <img src="image/5.png" alt="enter image description here"><br>
-<img src="image/6.png" alt="enter image description here"><img src="image/7.png" alt="enter image description here"></li>
+<img src="image/6.png" alt="enter image description here"></li>
+<li>检查PR是否已经为 <strong>已合入</strong><br>
+<img src="image/7.png" alt="enter image description here"></li>
 </ol>
 
