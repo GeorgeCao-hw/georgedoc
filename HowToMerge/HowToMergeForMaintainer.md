@@ -15,10 +15,10 @@
 <li>通知提交人（评论中@提交人）按要求修改，再重新提交PR。</li>
 <li>点击PR的<strong>文件</strong>查看修改差异，确认是否所有信息都是按照要求填写；如果检查有问题，请执行第4步；如果确认OK，请执行第6步骤；<br>
 <img src="image/4.png" alt="enter image description here"></li>
-<li>在PR评论区评论 <strong>/lgtm</strong> 和 <strong>/approve</strong><br>
+<li>在PR评论区评论 <strong>/lgtm</strong> 和 <strong>/approve</strong>，完成后进行第7步确认；<br>
 <img src="image/5.png" alt="enter image description here"><br>
 <img src="image/6.png" alt="enter image description here"></li>
-<li>检查PR是否已经为 <strong>已合入</strong>，如果状态为<strong>开启的</strong>请及时 <em>@georgecao</em><br>
+<li>检查PR是否已经为 <strong>已合入</strong>，如果状态为<strong>开启的</strong>请及时 <em>@georgecao</em>；<br>
 <img src="image/7.png" alt="enter image description here"></li>
 </ol>
 
