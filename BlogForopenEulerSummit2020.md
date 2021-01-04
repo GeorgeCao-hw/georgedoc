@@ -72,9 +72,14 @@ committers:</p>
 当前这个目标已经基本达成，openEuler社区上线包括网站，会议系统，CLA，Jenkins，机器人，运营看板，CVE管理等基础设施服务32个。<br>
 <img src="./image/wordcloud.png" alt="enter image description here"><br>
 基础设施都是采用组件化服务，不论是部署业界已有的服务还是我们基础设施自己开发的新服务，一律使用开源组件；这样的好处是可以有效避免后期缺乏维护的风险，且组件可以及时更新完善。<br>
-我们这里列举一些您经常会使用到的组件：</p>
+我们这里列举一些经常会使用到的组件：</p>
 <ol>
-<li><strong>CLA Sign</strong>：进入社区开始贡献前，您第一步需要签署代码贡献协议，需要签署CLA，基础设施提供CLA Sign服务；</li>
-<li><strong>Prow+</strong>：</li>
+<li><strong>CLA Sign</strong>：进入社区开始贡献前，贡献者第一步需要签署代码贡献协议，需要签署CLA，基础设施提供CLA Sign服务；</li>
+<li><strong>Prow+</strong>：贡献者进入社区仓库开始代码贡献时，会和我们代码对管平台（如gitee等）交互，此时就会使用Prow+服务与代码托管平台对接，辅助合入；</li>
+<li><strong>Jenkins</strong>：贡献者代码提交以后，系统会触发自动化构建，此时会使用到Jenkins服务，帮助完成CI构建；</li>
+<li><strong>OBS</strong>: openEuler社区在提交代码后会触发RPM包构建，此时会使用到后台的RPM包编译构建，运行OBS服务；</li>
 </ol>
+<p>除了以上这些服务外，还有很多开源组件在为基础设施提供服务。</p>
+<h2 id="openeuler基础设施架构">openEuler基础设施架构</h2>
+<p>openEuler基础设施设计都是云化集群方式设计部署</p>
 
