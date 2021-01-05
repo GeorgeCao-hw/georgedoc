@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="format-guide-of-openeuler-repository-configuration-file">Format Guide of openEuler Repository Configuration File</h1>
+<h1 id="the-configuration-guide-of-openeuler-repository">The Configuration Guide of openEuler Repository</h1>
 <p>Versions：</p>
 
 <table>
