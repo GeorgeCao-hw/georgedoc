@@ -189,47 +189,6 @@ repositories:
 <table>
 <thead>
 <tr>
-<th align="left">名称</th>
-<th align="left">类型</th>
-<th align="left">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">name</td>
-<td align="left">字符串</td>
-<td align="left">仓库名称</td>
-</tr>
-<tr>
-<td align="left">rename_from</td>
-<td align="left">字符串</td>
-<td align="left">仓库原名称。这个子元素为可选，只有该代码仓是从另一个代码仓改名而来时才需要</td>
-</tr>
-<tr>
-<td align="left">description</td>
-<td align="left">字符串</td>
-<td align="left">仓库信息描述</td>
-</tr>
-<tr>
-<td align="left">protected_branches</td>
-<td align="left">清单</td>
-<td align="left">保护分支的分支名列表</td>
-</tr>
-<tr>
-<td align="left">type</td>
-<td align="left">枚举类型，可选 public 或者 private</td>
-<td align="left">仓库类型。private代码仓不提供开放访问</td>
-</tr>
-<tr>
-<td align="left">upstream</td>
-<td align="left">字符串</td>
-<td align="left">本代码仓对应的上游社区信息。当 community 为 src-openeuler时，这个子元素必须提供；否则为可选项 <strong>该子元素为中期添加，当时本文件尚未形成格式版本管理</strong></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
 <th align="left">Name</th>
 <th align="left">Type</th>
 <th align="left">Remarks</th>
