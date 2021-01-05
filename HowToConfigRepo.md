@@ -60,7 +60,7 @@
 <td align="left">All repositories under the organization</td>
 </tr>
 </tbody>
-</table><p>Each element in the <strong>repositories</strong> list represents a code repository and is presented as a relational array. The following subelements are required:</p>
+</table><p>Each element in the <strong>repositories</strong> list represents a repository and is presented as a relational array. The following subelements are required:</p>
 
 <table>
 <thead>
@@ -102,37 +102,37 @@
 <td align="left"><strong>Changed in this version</strong>，Information about all branches in this repository</td>
 </tr>
 </tbody>
-</table><p>branches 清单中每个元素代表一个受管理的分支，以关系数组的方式呈现，需要包含以下子元素:</p>
+</table><p>Each element in the branches list represents a managed branch and is presented as a relational array. The following sub-elements are required:</p>
 
 <table>
 <thead>
 <tr>
-<th align="left">名称</th>
-<th align="left">类型</th>
-<th align="left">说明</th>
+<th align="left">Name</th>
+<th align="left">Type</th>
+<th align="left">Remarks</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="left">name</td>
-<td align="left">字符串</td>
-<td align="left">分支名称</td>
+<td align="left">string</td>
+<td align="left">Branch name</td>
 </tr>
 <tr>
 <td align="left">type</td>
-<td align="left">枚举类型，可选protected/readonly</td>
-<td align="left">分支类型，对照码云分支属性设置，protected 表示该分支可以被发布版本集成，readonly 表示该分支停止维护</td>
+<td align="left">enumeration，optional，protected/readonly</td>
+<td align="left">Branch type. Set this parameter based on Gitee branch attribute. <strong>protected</strong> indicates that the branch can be integrated in the released version. <strong>readonly</strong> indicates that the branch is not maintained.</td>
 </tr>
 <tr>
 <td align="left">create_from</td>
-<td align="left">字符串</td>
-<td align="left">分支创建起点，当 <a href="http://branches.name">branches.name</a> 为 master 时，字符串为空；新创其他分支时设置已存在的分支名或tag名，缺省为master</td>
+<td align="left">string</td>
+<td align="left">Start point for creating a branch. When <strong><a href="http://branches.name">branches.name</a></strong> is master, this string is empty. Set it the name of an existing branch or tag when creating another branch. The default value is master.</td>
 </tr>
 </tbody>
-</table><h3 id="说明">说明</h3>
-<p>当工具处理本文件时未能获取 format_version，可以认为 format_version 为 1.0</p>
-<p>后续当format_version变更时，约定若format_version的整数部分不变，则工具可以不做任何修改；若format_version整数部分变动，则所有工具都需要重新适配。</p>
-<h3 id="样例">样例</h3>
+</table><h3 id="remarks">Remarks</h3>
+<p>If the tool fails to obtain <strong>format_version</strong> when processing this, the value of <strong>format_version</strong> is 1.0.</p>
+<p>When <strong>format_version</strong> changes later, if the integer part of <strong>format_version</strong> remains unchanged, the tool does not need to be modified. If the integer part of <strong>format_version</strong> changes, all tools need to be adapted again.</p>
+<h3 id="example">Example</h3>
 <pre><code>format_version: 2.0
 community: src-openeuler
 repositories:
@@ -156,35 +156,35 @@ repositories:
     type: protected
   type: public
 </code></pre>
-<h2 id="版本-1">版本 1</h2>
-<h3 id="主要改变">主要改变</h3>
+<h2 id="version-1">Version 1</h2>
+<h3 id="major-changes-1">Major changes</h3>
 <ul>
-<li>openEuler 社区最初版本</li>
+<li>Initial version of the openEuler community</li>
 </ul>
-<h3 id="格式规范">格式规范</h3>
-<p>配置文件整体以yaml格式承载，包含两个基本元素：</p>
+<h3 id="format-guide-1">Format Guide</h3>
+<p>The configuration file is in YAML format and contains the following basic elements:</p>
 
 <table>
 <thead>
 <tr>
-<th align="left">名称</th>
-<th align="left">类型</th>
-<th align="left">说明</th>
+<th align="left">Name</th>
+<th align="left">Type</th>
+<th align="left">Remarks</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="left">community</td>
-<td align="left">枚举类型，可选 openeuler 或者 src-openeuler</td>
-<td align="left">组织名称</td>
+<td align="left">enumeration，optional， openeuler or src-openeuler</td>
+<td align="left">organization name，current names：openeuler or src-openeuler</td>
 </tr>
 <tr>
 <td align="left">repositories</td>
-<td align="left">清单</td>
-<td align="left">该组织下所有仓库信息，包含子字段</td>
+<td align="left">list</td>
+<td align="left">All repositories under the organization</td>
 </tr>
 </tbody>
-</table><p>repositories清单中每个元素代表一个代码仓，以关系数组的方式呈现，需要包含以下子元素：</p>
+</table><p>Each element in the <strong>repositories</strong> list represents a repository and is presented as a relational array. The following subelements are required:</p>
 
 <table>
 <thead>
@@ -226,7 +226,48 @@ repositories:
 <td align="left">本代码仓对应的上游社区信息。当 community 为 src-openeuler时，这个子元素必须提供；否则为可选项 <strong>该子元素为中期添加，当时本文件尚未形成格式版本管理</strong></td>
 </tr>
 </tbody>
-</table><p>样例：</p>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Type</th>
+<th align="left">Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">name</td>
+<td align="left">string</td>
+<td align="left">repository name</td>
+</tr>
+<tr>
+<td align="left">rename_from</td>
+<td align="left">string</td>
+<td align="left">Original repository name. This sub-element is optional and is required only when the repository is renamed from another repository.</td>
+</tr>
+<tr>
+<td align="left">description</td>
+<td align="left">string</td>
+<td align="left">Description of the component contained in the repository</td>
+</tr>
+<tr>
+<td align="left">protected_branches</td>
+<td align="left">list</td>
+<td align="left">Name list of the protected branches</td>
+</tr>
+<tr>
+<td align="left">type</td>
+<td align="left">enumeration，optional，public or private</td>
+<td align="left">repository type. The private repository does not provide open access.</td>
+</tr>
+<tr>
+<td align="left">upstream</td>
+<td align="left">string</td>
+<td align="left">Indicates the upstream community information of the repository. When organization is src-openeuler, this sub-element must be provided. This parameter is optional when organization is openEuler and the project is an original project of the community.</td>
+</tr>
+</tbody>
+</table><h3 id="example：">example：</h3>
 <pre><code>community: src-openeuler
 repositories:
 - name: A-Tune
