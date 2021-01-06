@@ -19,7 +19,7 @@
 <img src='./img/4.png' width=600 height=300 alt='CLA signing page' align='center'/>
 
   | Information | Description |
-  |  :---:  |  :---: | 
+  |  :---  |  :--- | 
   | Authorized Representavite | Legal representative of your corporation |
   | Title | Title of the representative |
   | Corporation Name | Name of corporation |
