@@ -12,7 +12,7 @@
 <h3 id="how-do-i-sign-an-enterprise-cla">How Do I Sign an Enterprise CLA?</h3>
 <ol>
 <li>
-<p>Go to the Community section on the homepage of the <a href="https://openeuler.org/en/">openEuler official website</a>and click <a href="https://openeuler.org/en/community/contribution/">Contribution</a>.<br>
+<p>Go to the Community section on the homepage of the <a href="https://openeuler.org/en/">openEuler official website</a> and click <a href="https://openeuler.org/en/community/contribution/">Contribution</a>.<br>
 <img src="./img/1-en.png" width="600" height="350" alt="openEuler official website"></p>
 </li>
 <li>
