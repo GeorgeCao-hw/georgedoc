@@ -2,8 +2,8 @@
 
 背景：随着openEuler社区开发者队伍的壮大，对bug管理系统的要求越来越高，通过与TC和各SIG组（SIG-kernel/SIG-release/SIG-QA等）讨论，社区希望引入bugzilla系统用于bug跟踪。
 
-bugzilla是一个成熟的、开源的bug跟踪系统，社区有现成的容器镜像可以使用，但是该容器镜像是4.0.5版本，
+bugzilla是一个成熟的、开源的bug跟踪系统，社区有现成的容器镜像可以使用，但是该容器镜像是4.0.5版本，相对比较早。社区希望使用最新的稳定版本，即5.0.6的版本。因此openEuler基础设施使用开源社区资源独立构建容器镜像并上线了fuw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTMyNzc1LC0xMTM5NjU3NTM1LC0xNj
-E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
+eyJoaXN0b3J5IjpbMTQwNDQ0MjUzMCwtMTEzOTY1NzUzNSwtMT
+YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
