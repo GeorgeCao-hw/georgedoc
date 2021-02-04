@@ -12,10 +12,10 @@ bugzilla是一个成熟的、开源的bug跟踪系统，社区有现成的容器
 ## 容器镜像构建
 容器镜像构建流程我们已经使用流水线工程实施，
 工程路径：https://jenkins.osinfra.cn/view/openEuler/job/openEuler_APPs/job/bugzilla/
-该工程中使用到的Dockerfile和构建流程脚本都已上库到以下代码仓库：
-
+该工程中使用到的[Dockerfile](https://github.com/opensourceways/app-bugzilla/blob/main/Dockerfile)和构建流程[脚本](https://github.com/opensourceways/app-bugzilla/blob/main/jenkins/jenkins)都已上库到以下代码仓库：
+https://github.com/opensourceways/app-bugzilla
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc3ODA1LC0xMTM5NjU3NTM1LC0xNj
-E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
+eyJoaXN0b3J5IjpbLTEzMzc0MTE4NzQsLTExMzk2NTc1MzUsLT
+E2MTc3ODY5NDcsLTE0NjA1MzEzOTVdfQ==
 -->
