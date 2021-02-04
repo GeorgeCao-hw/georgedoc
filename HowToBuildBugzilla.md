@@ -18,10 +18,17 @@ https://github.com/opensourceways/app-bugzilla
 ## 服务拉起
 按照K8S服务配置，定义了相关的deployment.yaml、kustomization.yaml、namespace.yaml、secrets.yaml、service.yaml文件，文件路径：
 https://github.com/opensourceways/app-bugzilla/tree/main/deploy
-重点关注容器拉起后需要执行以下启动行命令：
+重点关注容器拉起后需要执行以下启动行命令，命令行可以在deployment.yaml中查询到：
 sh ./cfg.sh
+a2ensite bugzilla
+a2enmod cgi headers expires
+service apache2 restart
+sleep infinity
+|命令|  用途|
+|-----------|--|
+|sh ./cfg.sh|  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgxODI0OTAsLTExMzk2NTc1MzUsLT
-E2MTc3ODY5NDcsLTE0NjA1MzEzOTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjk1NjMwNSwtMTEzOTY1NzUzNSwtMT
+YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
