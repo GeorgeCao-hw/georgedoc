@@ -32,9 +32,10 @@ sleep infinity
 
 ## 服务配置
 该服务配置后期可以通过步骤2 服务拉起中cfg.sh脚本实现，当前系统暂时使用的登录bugzilla节点手动配置：
-1 
+1. 第一次进入容器节点，执行：./checksetup.pl 脚本配置管理员账户信息，需要管理员邮箱，用户名和密码。如果非第一次登录（管理员账户信息已经存入数据）则不再需要配置。
+2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMjQwNTI1LC0xMTM5NjU3NTM1LC0xNj
-E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
+eyJoaXN0b3J5IjpbLTY5MTcxOTc4NSwtMTEzOTY1NzUzNSwtMT
+YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
