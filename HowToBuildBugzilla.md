@@ -35,9 +35,10 @@ sleep infinity
 1. 第一次进入容器节点，执行：./checksetup.pl 脚本配置管理员账户信息，需要管理员邮箱，用户名和密码。如果非第一次登录（管理员账户信息已经存入数据）则不再需要配置。
 2. 执行cpan upgrade Net::SMTP::SSL升级节点内smtp系统，否则会影响邮件服务器注册。执行过程中有两次用户交互，直接回复yes即可。
 3. 使用1步骤中录入的管理员账号登录bugzilla.openeuler.org系统。按照以下步骤进行邮件smtp服务注册：
-【Administratoer】——> 
+【Administration】——>【Parameters】——>【Email】
+个参数信息
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNTI2NjExLC0xMTM5NjU3NTM1LC0xNj
-E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
+eyJoaXN0b3J5IjpbLTM5NjgzMTM1MSwtMTEzOTY1NzUzNSwtMT
+YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
