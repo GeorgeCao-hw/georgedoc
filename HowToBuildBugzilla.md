@@ -16,9 +16,9 @@ bugzilla是一个成熟的、开源的bug跟踪系统，社区有现成的容器
 https://github.com/opensourceways/app-bugzilla
 
 ## 服务拉起
-按照K8S服务配置，定义了相关的deployment.文件
+按照K8S服务配置，定义了相关的deployment.yaml  kustomization.yaml  namespace.yaml  secrets.yaml service.yaml文件
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTM2NTA5NywtMTEzOTY1NzUzNSwtMT
-YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
+eyJoaXN0b3J5IjpbNzE1NDE1NDY0LC0xMTM5NjU3NTM1LC0xNj
+E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
 -->
