@@ -9,9 +9,11 @@ bugzilla是一个成熟的、开源的bug跟踪系统，社区有现成的容器
 2. 服务拉起
 3. 服务配置
 
-## 容器ji
+## 容器镜像构建
+容器镜像构建流程我们已经使用流水线工程实施，
+工程路径：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTIzOTc4OCwtMTEzOTY1NzUzNSwtMT
-YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
+eyJoaXN0b3J5IjpbLTEzOTE2MDkwMTUsLTExMzk2NTc1MzUsLT
+E2MTc3ODY5NDcsLTE0NjA1MzEzOTVdfQ==
 -->
