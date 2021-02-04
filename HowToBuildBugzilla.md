@@ -18,9 +18,10 @@ https://github.com/opensourceways/app-bugzilla
 ## 服务拉起
 按照K8S服务配置，定义了相关的deployment.yaml、kustomization.yaml、namespace.yaml、secrets.yaml、service.yaml文件，文件路径：
 https://github.com/opensourceways/app-bugzilla/tree/main/deploy
-重点关注容器拉起后需要执行
+重点关注容器拉起后需要执行以下启动行命令：
+sh ./cfg.sh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3NjExNTQzLC0xMTM5NjU3NTM1LC0xNj
-E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
+eyJoaXN0b3J5IjpbLTIwNDgxODI0OTAsLTExMzk2NTc1MzUsLT
+E2MTc3ODY5NDcsLTE0NjA1MzEzOTVdfQ==
 -->
