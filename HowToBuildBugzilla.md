@@ -30,9 +30,11 @@ sleep infinity
 |a2ensite bugzilla / a2enmod cgi headers expires / service apache2 restart | 配置并重启apache服务 |
 |sleep infinity | 服务处于等待状态 |
 
-##
+## 服务配置
+该服务配置后期可以通过步骤2 服务拉起中cfg.sh脚本实现，当前系统暂时使用的登录bugzilla节点手动配置：
+1 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYxODcyMjgsLTExMzk2NTc1MzUsLT
-E2MTc3ODY5NDcsLTE0NjA1MzEzOTVdfQ==
+eyJoaXN0b3J5IjpbOTAzMjQwNTI1LC0xMTM5NjU3NTM1LC0xNj
+E3Nzg2OTQ3LC0xNDYwNTMxMzk1XX0=
 -->
