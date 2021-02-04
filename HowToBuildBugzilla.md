@@ -26,9 +26,13 @@ service apache2 restart
 sleep infinity
 |命令|  用途|
 |-----------|--|
-|sh ./cfg.sh|  |
+|sh ./cfg.sh| 脚本配置bugzilla运行所需的配置参数，包括数据库连接参数等 |
+|a2ensite bugzilla
+a2enmod cgi headers expires
+service apache2 restart | 脚本配置bugzilla运行所需的配置参数，包括数据库连接参数等 |
+|sh ./cfg.sh| 脚本配置bugzilla运行所需的配置参数，包括数据库连接参数等 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk1NjMwNSwtMTEzOTY1NzUzNSwtMT
+eyJoaXN0b3J5IjpbMTUzODYxNDEyMCwtMTEzOTY1NzUzNSwtMT
 YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
