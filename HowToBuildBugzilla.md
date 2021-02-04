@@ -36,9 +36,9 @@ sleep infinity
 2. 执行cpan upgrade Net::SMTP::SSL升级节点内smtp系统，否则会影响邮件服务器注册。执行过程中有两次用户交互，直接回复yes即可。
 3. 使用1步骤中录入的管理员账号登录bugzilla.openeuler.org系统。按照以下步骤进行邮件smtp服务注册：
 【Administration】——>【Parameters】——>【Email】
-个参数信息
+各个参数信息根据实际情况配置。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjgzMTM1MSwtMTEzOTY1NzUzNSwtMT
+eyJoaXN0b3J5IjpbMTc3NTMwMjY4NCwtMTEzOTY1NzUzNSwtMT
 YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
