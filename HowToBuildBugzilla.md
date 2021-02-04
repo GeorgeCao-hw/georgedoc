@@ -15,7 +15,10 @@ bugzilla是一个成熟的、开源的bug跟踪系统，社区有现成的容器
 该工程中使用到的[Dockerfile](https://github.com/opensourceways/app-bugzilla/blob/main/Dockerfile)和构建流程[脚本](https://github.com/opensourceways/app-bugzilla/blob/main/jenkins/jenkins)都已上库到以下代码仓库：
 https://github.com/opensourceways/app-bugzilla
 
+## 服务拉起
+按照K8S服务配置，定义了相关的deployment.文件
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc0MTE4NzQsLTExMzk2NTc1MzUsLT
-E2MTc3ODY5NDcsLTE0NjA1MzEzOTVdfQ==
+eyJoaXN0b3J5IjpbLTUxMTM2NTA5NywtMTEzOTY1NzUzNSwtMT
+YxNzc4Njk0NywtMTQ2MDUzMTM5NV19
 -->
