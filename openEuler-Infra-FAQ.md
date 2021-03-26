@@ -49,13 +49,13 @@ git config --global http.sslVerify false
  ---
  10. **请问我提交了PR后为什么没有触发CI构建，需要如何处理？**
  CI未及时触发通常有两种情况：  
- a. 第一种可能是仓库的webhook事件通知jenkinsjin运营CI构建
+ a. 第一种可能是网络原因或系统从代码仓库发出的webhook通知事件没有没有及时到达目标服务器，
  11. end
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM5NzczNjEsLTE5NzMxNjA2NjksLT
-IxMDcxNjAwMjYsNDIwMjg0NjcyXX0=
+eyJoaXN0b3J5IjpbLTc5NTQyMDgwOSwtMTk3MzE2MDY2OSwtMj
+EwNzE2MDAyNiw0MjAyODQ2NzJdfQ==
 -->
