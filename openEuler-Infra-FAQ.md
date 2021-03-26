@@ -1,5 +1,6 @@
 # openEuler-Infra-FAQ
 ---
+
  1. **请问我如何在Gitee平台申请加入openEuler企业，成为组织成员？**  
 请点击[链接](https://gitee.com/open_euler?invite=4bd118cb5f4df496cf260b2eec4d904fb23724c478f1a1b48e7cde0b62298f898e2a5d1b1b8079876b17c049295f276a1049f26840b012af)填写相关内容后申请加入即可；
 申请通常会在第二天10点前审核生效；如未及时生效可邮件通知 infra@openeuler.org 。
@@ -13,12 +14,13 @@ openEuler社区代码仓库的创建、删除管理方式如下：
 如果仓库配置代码合入2小时后，代码仓库尚未创建，可邮件联系 infra@openeuler.org 或者 [infrastructure仓库](https://gitee.com/openeuler/infrastructure)提issue。
  ---
  3. **请问提交PR后出现openeuler-cla/no红色标签，如何处理？**  
+ 4. **请问**
  出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。[签署地址](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)可以在PR评论区找到。
  CLA检查是使用commit中author邮箱作为检查凭证的。该author邮箱可以通过git log查询到。
  如需修改邮箱配置，可在本体通过 git config --global user.name ****  和  git config --global user.email  ****修改配置。
 
   ---
- 4. **请问为什么不能fork一个src-openeuler/abcd仓库到个人账号下？**  
+ 45. **请问为什么不能fork一个src-openeuler/abcd仓库到个人账号下？**  
 这个问题通常是因为在您的个人账号下，已经有abcd的同名仓库，比如你之前已经从openeuler组织下fork的abcd仓库；因为码云是通过你的个人账号加仓库名寻址的，所有不允许在你个人账号下有同名仓库。
 修改个人账户下已有仓库的名称和路径，然后再从 src-openeuler/abcd 仓库fork即可。
 ---
@@ -49,5 +51,5 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTU1MTI4N119
+eyJoaXN0b3J5IjpbLTczMTEzNzYwOSwxOTAxNTUxMjg3XX0=
 -->
