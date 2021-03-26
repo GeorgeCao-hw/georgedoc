@@ -1,7 +1,7 @@
 # openEuler-Infra-FAQ
 ---
  1. **请问我如何在Gitee平台申请加入openEuler企业，成为组织成员？**
- 请点击[链接](https://gitee.com/open_euler?invite=4bd118cb5f4df496cf260b2eec4d904fb23724c478f1a1b48e7cde0b62298f898e2a5d1b1b8079876b17c049295f276a1049f26840b012af)填写相关内容后申请加入即可；
+请点击[链接](https://gitee.com/open_euler?invite=4bd118cb5f4df496cf260b2eec4d904fb23724c478f1a1b48e7cde0b62298f898e2a5d1b1b8079876b17c049295f276a1049f26840b012af)填写相关内容后申请加入即可；
 申请通常会在第二天10点前审核生效；如未及时生效可邮件通知 infra@openeuler.org 。
 ---
   2. **请问如何在openEuler社区创建代码仓库？**
@@ -49,5 +49,6 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3OTMxMzc1LC0xMjE4NzcxNDc5XX0=
+eyJoaXN0b3J5IjpbLTEyODQwOTIwMjcsLTEyMTg3NzE0NzldfQ
+==
 -->
