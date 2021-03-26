@@ -49,12 +49,12 @@ git config --global http.sslVerify false
  ---
  10. **请问我提交了PR后为什么没有触发CI构建，需要如何处理？**
  
- 12. end
+ 11. end
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTk5MDg5NSwtMTk3MzE2MDY2OSwtMj
-EwNzE2MDAyNiw0MjAyODQ2NzJdfQ==
+eyJoaXN0b3J5IjpbMTY2NTA5OTk4LC0xOTczMTYwNjY5LC0yMT
+A3MTYwMDI2LDQyMDI4NDY3Ml19
 -->
