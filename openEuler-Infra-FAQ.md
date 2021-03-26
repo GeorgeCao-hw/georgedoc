@@ -7,8 +7,8 @@
   2. **请问如何在openEuler社区创建代码仓库？**  
 openEuler社区代码仓库的创建、删除管理方式如下：  
 &emsp; a.用户通过修改仓库配置文件，提交合入申请；  
-&emsp; b. TC审核申请，审核通过后合入配置文件；审核过程可能会有疑问，请申请人跟踪PR状态；  
-&emsp; c. 社区机器人CI-bot根据仓库配置文件自动创建代码仓库；    
+&emsp; b.TC审核申请，审核通过后合入配置文件；审核过程可能会有疑问，请申请人跟踪PR状态；  
+&emsp; c.社区机器人CI-bot根据仓库配置文件自动创建代码仓库；    
 所以新增代码仓库只需要在[相应代码路径](https://gitee.com/openeuler/community/tree/master/repository)修改对应配置文件(openeuler.yaml or src-open)并提交PR申请即可，随后跟踪PR审核状态与仓库创建状态；
 如果仓库配置代码合入2小时后，代码仓库尚未创建，可邮件联系 infra@openeuler.org 或者 [infrastructure仓库](https://gitee.com/openeuler/infrastructure)提issue。
  ---
@@ -49,5 +49,5 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIxODczMTddfQ==
+eyJoaXN0b3J5IjpbMTkwMTU1MTI4NywtMTE5MjE4NzMxN119
 -->
