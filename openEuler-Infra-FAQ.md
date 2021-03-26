@@ -4,7 +4,7 @@
 请点击[链接](https://gitee.com/open_euler?invite=4bd118cb5f4df496cf260b2eec4d904fb23724c478f1a1b48e7cde0b62298f898e2a5d1b1b8079876b17c049295f276a1049f26840b012af)填写相关内容后申请加入即可；
 申请通常会在第二天10点前审核生效；如未及时生效可邮件通知 infra@openeuler.org 。
 ---
-  2. **请问如何在openEuler社区创建代码仓库？**  
+  2. **请问如何在openEuler社区创建代码仓库？**<br>
 openEuler社区代码仓库的创建、删除管理方式如下：
    a. 用户通过修改仓库配置文件，提交合入申请；
    b. TC审核申请，审核通过后合入配置文件；审核过程可能会有疑问，请申请人跟踪PR状态；
@@ -12,7 +12,7 @@ openEuler社区代码仓库的创建、删除管理方式如下：
 所以新增代码仓库只需要在[相应代码路径](https://gitee.com/openeuler/community/tree/master/repository)修改对应配置文件(openeuler.yaml or src-open)并提交PR申请即可，随后跟踪PR审核状态与仓库创建状态；
 如果仓库配置代码合入2小时后，代码仓库尚未创建，可邮件联系 infra@openeuler.org 或者 [infrastructure仓库](https://gitee.com/openeuler/infrastructure)提issue。
  ---
- 3. **请问提交PR后出现openeuler-cla/no红色标签，如何处理？**
+ 3. **请问提交PR后出现openeuler-cla/no红色标签，如何处理？**  
  出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。[签署地址](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)可以在PR评论区找到。
  CLA检查是使用commit中author邮箱作为检查凭证的。该author邮箱可以通过git log查询到。
  如需修改邮箱配置，可在本体通过 git config --global user.name ****  和  git config --global user.email  ****修改配置。
@@ -49,6 +49,5 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg2ODgwNzMsLTEyMTg3NzE0NzldfQ
-==
+eyJoaXN0b3J5IjpbMTUzNDM5MzY2OSwtMTIxODc3MTQ3OV19
 -->
