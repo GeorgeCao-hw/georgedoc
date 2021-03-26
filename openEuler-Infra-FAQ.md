@@ -49,14 +49,14 @@ git config --global http.sslVerify false
  ---
  10. **请问我提交了PR后为什么没有触发CI构建，需要如何处理？**
  CI未及时触发通常有两种情况：  
- a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；
- b.第二种可能是代码仓库创建以后短时间内提交PR，而此时jenkins服务器侧尚未创建CI构建工程，评论 /retest
+ a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；  
+ b.第二种可能是代码仓库创建以后短时间内提交PR，此时jenkins服务器侧尚未创建CI构建工程，所以触发不到CI构建，评论 /retest 也不生效；这种情况或者稍等一下系统自动建工程，或者联系 infra@openeuler.org 处理。
  11. end
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI4NTYwMjcsLTE5NzMxNjA2NjksLT
-IxMDcxNjAwMjYsNDIwMjg0NjcyXX0=
+eyJoaXN0b3J5IjpbLTI0OTUyNDI5OSwtMTk3MzE2MDY2OSwtMj
+EwNzE2MDAyNiw0MjAyODQ2NzJdfQ==
 -->
