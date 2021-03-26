@@ -23,9 +23,9 @@ openEuler社区代码仓库的创建、删除管理方式如下：
 这个问题通常是因为在您的个人账号下，已经有abcd的同名仓库，比如你之前已经从openeuler组织下fork的abcd仓库；因为码云是通过你的个人账号加仓库名寻址的，所有不允许在你个人账号下有同名仓库。
 修改个人账户下已有仓库的名称和路径，然后再从 src-openeuler/abcd 仓库fork即可。
 ---
- 5. **请问普通贡献者（非maintainer）是否可以直接往非保护分支push代码？**  
-抱歉，普通贡献者不能直接向仓库push代码，包括保护分支和非保护分支。
-保护分支与非保护分支的区别在于maintainer是否可以直接push；如果是非保护分支，maintainer可以有权限直接push；如果是保护分支maintainer也没有权限直接push，只能通过评估最终由CI-bot代为合入。
+ 5. **请问非maintainer贡献者是否可以直接往非保护分支push代码？**  
+抱歉，非maintainer贡献者不能直接向仓库push代码，包括保护分支和非保护分支。
+保护分支与非保护分支的区别在于maintainer是否可以直接push；如果是非保护分支，maintainer可以有权限直接push；如果是保护分支maintainer也没有权限直接push，只能通过pin最终由CI-bot代为合入。
 ---
  6. **请问maintainer可否直接push代码到仓库？**  
 该问题需要确定代码合入到仓库的具体分支属性，如果分支为保护分支，maintainer没有权限直接push代码；如果分支为非保护分支，maintainer可以直接push代码。
@@ -50,5 +50,6 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcxNjAwMjYsNDIwMjg0NjcyXX0=
+eyJoaXN0b3J5IjpbLTI2NDUxMzI0MCwtMjEwNzE2MDAyNiw0Mj
+AyODQ2NzJdfQ==
 -->
