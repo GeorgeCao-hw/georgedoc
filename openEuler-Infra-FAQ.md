@@ -47,7 +47,7 @@ git config --global http.proxy http://域账号:密码@proxycn2.huawei.com:8080
 git config --global http.sslVerify false
 注意如果个人域账号密码中有特殊字符需要转义。
  ---
- 10. **请问我提交了PR后为什么没有触发CI构建，需要如何处理？**
+ 10. **请问我提交PR后为什么没有触发CI构建，需要如何处理？**
  CI未及时触发通常有两种情况：  
 &emsp; a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；  
 &emsp; b.第二种可能是代码仓库创建以后短时间内提交PR，此时jenkins服务器侧尚未创建CI构建工程，所以触发不到CI构建，评论 /retest 也不生效；这种情况或者稍等一下系统自动建工程，或者联系 infra@openeuler.org 处理。
@@ -57,6 +57,5 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjU0NDI5NCwtMjQ5NTI0Mjk5LC0xOT
-czMTYwNjY5LC0yMTA3MTYwMDI2LDQyMDI4NDY3Ml19
+eyJoaXN0b3J5IjpbLTIxMjM3MjIxMzhdfQ==
 -->
