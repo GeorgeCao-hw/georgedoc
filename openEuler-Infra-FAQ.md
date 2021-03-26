@@ -48,13 +48,14 @@ git config --global http.sslVerify false
 注意如果个人域账号密码中有特殊字符需要转义。
  ---
  10. **请问我提交了PR后为什么没有触发CI构建，需要如何处理？**
- 
+ CI未及时触发通常有两种情况：  
+ a. 第一种可能是仓库的webhook事件通知jenkinsjin运营CI构建
  11. end
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTA5OTk4LC0xOTczMTYwNjY5LC0yMT
-A3MTYwMDI2LDQyMDI4NDY3Ml19
+eyJoaXN0b3J5IjpbLTEyMzM5NzczNjEsLTE5NzMxNjA2NjksLT
+IxMDcxNjAwMjYsNDIwMjg0NjcyXX0=
 -->
