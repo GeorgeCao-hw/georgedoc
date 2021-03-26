@@ -14,7 +14,7 @@ openEuler社区代码仓库的创建、删除管理方式如下：
 如果仓库配置代码合入2小时后，代码仓库尚未创建，可邮件联系 infra@openeuler.org 或者 [infrastructure仓库](https://gitee.com/openeuler/infrastructure)提issue。
  ---
  3. **请问提交PR后出现openeuler-cla/no红色标签，如何处理？**  
- 出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。[签署地址](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)可以在PR评论区找到。如果是个人贡献者请选择“签署个人CLA”，如果是作为企业的员工参与贡献请选择“签署员工CLA”；作为企业员工再签署是需要使用企业邮箱，比如 xxx@kylin.com
+ 出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。[签署地址](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)可以在PR评论区找到。如果是个人贡献者请选择“签署个人CLA”，如果是作为企业的员工参与贡献请选择“签署员工CLA”；作为企业员工再签署是需要使用企业邮箱，比如 xxx@huawei.com 、xxxx@kylinos.cn等。  
  CLA检查是使用commit中author邮箱作为检查凭证的。该author邮箱可以通过git log查询到。
  如需修改邮箱配置，可在本体通过 git config --global user.name ****  和  git config --global user.email  ****修改配置。
 
@@ -50,5 +50,5 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgzMTc3NCwxNTM1MzU1ODE5XX0=
+eyJoaXN0b3J5IjpbODE5MzgyOTIwLDE1MzUzNTU4MTldfQ==
 -->
