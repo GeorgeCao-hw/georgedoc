@@ -19,7 +19,7 @@ openEuler社区代码仓库的创建、删除管理方式如下：
  如需修改邮箱配置，可在本体通过 git config --global user.name ****  和  git config --global user.email  ****修改配置。
 
   ---
- 45. **请问为什么不能fork一个src-openeuler/abcd仓库到个人账号下？**  
+ 4. **请问为什么不能fork一个src-openeuler/abcd仓库到个人账号下？**  
 这个问题通常是因为在您的个人账号下，已经有abcd的同名仓库，比如你之前已经从openeuler组织下fork的abcd仓库；因为码云是通过你的个人账号加仓库名寻址的，所有不允许在你个人账号下有同名仓库。
 修改个人账户下已有仓库的名称和路径，然后再从 src-openeuler/abcd 仓库fork即可。
 ---
@@ -50,5 +50,5 @@ git config --global http.sslVerify false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTM1NTgxOV19
+eyJoaXN0b3J5IjpbLTIxMzgzMTc3NCwxNTM1MzU1ODE5XX0=
 -->
