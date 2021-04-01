@@ -52,13 +52,13 @@ git config --global http.sslVerify false
 &emsp; a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；  
 &emsp; b.第二种可能是代码仓库创建以后短时间内提交PR，此时jenkins服务器侧尚未创建CI构建工程，所以触发不到CI构建，评论 /retest 也不生效；这种情况或者稍等一下系统自动建工程，或者联系 infra@openeuler.org 处理。
  ---
- 11. **请问我提交PR后为什么没有触发CI构建，需要如何处理？**
+ 11. **请问如何修改一个仓库分支的属性？**
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUwMzc1MTUsLTY4MjE0OTIxMCwtMj
-EyMzcyMjEzOF19
+eyJoaXN0b3J5IjpbMTYxMDY3NDMzMywtNjgyMTQ5MjEwLC0yMT
+IzNzIyMTM4XX0=
 -->
