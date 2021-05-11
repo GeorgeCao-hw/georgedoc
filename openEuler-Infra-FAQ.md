@@ -53,61 +53,41 @@ CLA检查是使用commit中信息中的commit邮箱作为检查凭证的。该�
 保护分支与非保护分支的区别在于maintainer是否可以直接push；如果是非保护分支，maintainer可以有权限直接push；如果是保护分支maintainer也没有权限直接push，只能通过评论最终由CI-bot代为合入。
 
 ---
-
 6. **请问maintainer可否直接push代码到仓库？**
 该问题需要确定代码合入到仓库的具体分支属性，如果分支为保护分支，maintainer没有权限直接push代码；如果分支为非保护分支，maintainer可以直接push代码。
 
 ---
 
 7. **请问直接push代码到仓库和通过评论/lgtm 、/approve合入代码有何区别？**
-
 通过git命令直接push代码到仓库缺少必要的审核环节，存在一定合入风险；主要应用场景是比如需要上传的文件过大超过个人仓库限制，只能通过直接push到企业仓库的非保护分支，然后再通过非保护分支往保护分支merge；
-
 通过评论/lgtm /approve合入代码从流程上增加了评审环节，保证一份代码的合入至少需要提交者以外的一位maintainer的评审同意，即便提交者本人是maintainer也需要另一位maintainer同意。
 
 ---
-
 8. **请问openEuler社区仓库评论区都支持哪些命令，分别都是什么含义？**
-
 目前社区仓库评论区主要支持的命令:
-
 https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md
 
 ---
 
 9. **请问在华为公司内部使用git clone从码云克隆代码报超时怎么办？( Failed to connect to gitee.com port 443: Timed out )**
-
 华为公司内克隆外网代码的时候提示
-
 fatal: unable to access 'https://gitee.com/openeuler/community.git/': Failed to connect to gitee.com port 443: Timed out
-
 解决方法是依次配置：
-
 git config --global https.proxy https://域账号:密码@proxycn2.huawei.com:8080
-
 git config --global http.proxy http://域账号:密码@proxycn2.huawei.com:8080
-
 git config --global http.sslVerify false
-
 注意如果个人域账号密码中有特殊字符需要转义。
 
 ---
-
 10. **请问我提交PR后为什么没有触发CI构建，需要如何处理？**
-
 CI未及时触发通常有两种情况：
-
 &emsp; a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；
-
 &emsp; b.第二种可能是代码仓库创建以后短时间内提交PR，此时jenkins服务器侧尚未创建CI构建工程，所以触发不到CI构建，评论 /retest 也不生效；这种情况或者稍等一下系统自动建工程，或者联系 infra@openeuler.org 处理。
 
 ---
-
 11. **请问如何修改一个仓库分支的属性？**
-
 请在https://gitee.com/openeuler/community/tree/master/repository 下，修改配置文件openeuler.yaml和src-openeuler.yaml，找到相应的仓库名称和对应的分支，然后修改分支属性。CI-bot会自动修改该属性信息到仓库。<br>
-
 如果修改后1小时仍未生效，可联系infra@openeuler.org帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjAwMzEwNywtNTM2MjcxMTU5XX0=
+eyJoaXN0b3J5IjpbNTYwMDI0MjY1LC01MzYyNzExNTldfQ==
 -->
