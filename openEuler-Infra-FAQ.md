@@ -104,7 +104,9 @@ CI未及时触发通常有两种情况：
 
 11. **请问如何修改一个仓库分支的属性？**
 
-请在
+请在https://gitee.com/openeuler/community/tree/master/repository 下，修改配置文件openeuler.yaml和src-openeuler.yaml，找到相应的仓库名称和对应的分支，然后修改分支属性。CI-bot会自动修改该属性信息到仓库。<br>
+
+如果修改后1小时仍未生效，可联系infra@openeuler.org帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY4MjU3OV19
+eyJoaXN0b3J5IjpbLTUzNjI3MTE1OV19
 -->
