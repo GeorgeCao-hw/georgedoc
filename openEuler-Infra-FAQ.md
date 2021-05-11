@@ -3,17 +3,20 @@
 
 ---
 
+<hr>
+<hr>
 <h1 id="openeuler-infra-faq">openEuler-Infra-FAQ</h1>
 <hr>
 <ul>
 <li><strong># openEuler-Infra-FAQ
- 
----
- - **请问我如何在Gitee平台申请加入openEuler企业，成为组织成员？</strong><br>
+</strong></li></ul><hr>
+<ul>
+<li>**请问我如何在Gitee平台申请加入openEuler企业，成为组织成员？<br><br>
 请点击<a href="**  
-请点击[链接](https://gitee.com/open_euler?invite=4bd118cb5f4df496b4853e5c503647064738f7657ef96a848e7cde0b62298f898e2a5d1b1b8079876b17c049295f276a1049f26840b012af">链接</a>)填写相关内容后申请加入即可；<br>
+请点击[链接](https://gitee.com/open_euler?invite=4bd118cb5f4df496b4853e5c503647064738f7657ef96a848e7cde0b62298f898e2a5d1b1b8079876b17c049295f276a1049f26840b012af">链接</a>)填写相关内容后申请加入即可；<br><br>
 申请通常会在第二天10点前审核生效；如未及时生效可邮件通知 <a href="mailto:infra@openeuler.org">infra@openeuler.org</a> 。</li>
 </ul>
+
 <hr>
 <ul>
 <li><strong> 。
@@ -21,11 +24,11 @@
  - **请问如何在openEuler社区创建代码仓库？</strong><br>**  
 openEuler社区代码仓库的创建、删除管理方式如下：<br>
    
-&emsp; a.用户通过修改仓库配置文件，提交合入申请；<br>
+  a.用户通过修改仓库配置文件，提交合入申请；<br>
    
-&emsp; b.TC审核申请，审核通过后合入配置文件；审核过程可能会有疑问，请申请人跟踪PR状态；<br>
+  b.TC审核申请，审核通过后合入配置文件；审核过程可能会有疑问，请申请人跟踪PR状态；<br>
    
-&emsp; c.社区机器人CI-bot根据仓库配置文件自动创建代码仓库；<br>    
+  c.社区机器人CI-bot根据仓库配置文件自动创建代码仓库；<br>    
 所以新增代码仓库只需要在<a href="[相应代码路径](https://gitee.com/openeuler/community/tree/master/repository">相应代码路径</a>)修改对应配置文件(openeuler.yaml or src-open)并提交PR申请即可，随后跟踪PR审核状态与仓库创建状态；<br>
 如果仓库配置代码合入2小时后，代码仓库尚未创建，可邮件联系 <a href="mailto:infra@openeuler.org">infra@openeuler.org</a> 或者 <a href=" 或者 [infrastructure仓库](https://gitee.com/openeuler/infrastructure">infrastructure仓库</a>提issue。</li>
 </ul>
@@ -36,9 +39,8 @@ openEuler社区代码仓库的创建、删除管理方式如下：<br>
  - **请问提交PR后出现openeuler-cla/no红色标签，如何处理？</strong><br>
 **  
  出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。<a href="[签署地址](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=">签署地址</a>)可以在PR评论区找到。如果是个人贡献者请选择“签署个人CLA”，如果是作为企业的员工参与贡献请选择“签署员工CLA”；作为企业员工再签署是时需要使用企业邮箱，比如 <a href="mailto:xxx@huawei.com">xxx@huawei.com</a>xxx@huawei.com 、xxxx@kylinos.cn等。<br>
-  
- CLA检查是使用commit中信息中的commit邮箱作为检查凭证的。该邮箱可以通过git log --pretty=fuller查询到。</li>
-</ul>
+</li></ul><p>CLA检查是使用commit中信息中的commit邮箱作为检查凭证的。该邮箱可以通过git log --pretty=fuller查询到。</p>
+
 <table>  
  <tbody><tr>  
  <th>场景</th>  
@@ -62,13 +64,14 @@ openEuler社区代码仓库的创建、删除管理方式如下：<br>
 </tbody></table>
 <hr>
 <ol start="4">
-<li><strong>able>
-
-  ---
- 4. **请问为什么不能fork一个src-openeuler/abcd仓库到个人账号下？</strong><br>**  
-这个问题通常是因为在您的个人账号下，已经有abcd的同名仓库，比如你之前已经从openeuler组织下fork的abcd仓库；因为码云是通过你的个人账号加仓库名寻址的，所有不允许在你个人账号下有同名仓库。<br>
+<li><strong>able&gt;
+</strong></li></ol><hr>
+<ol start="4">
+<li><strong>请问为什么不能fork一个src-openeuler/abcd仓库到个人账号下？</strong><br><br>
+这个问题通常是因为在您的个人账号下，已经有abcd的同名仓库，比如你之前已经从openeuler组织下fork的abcd仓库；因为码云是通过你的个人账号加仓库名寻址的，所有不允许在你个人账号下有同名仓库。<br><br>
 修改个人账户下已有仓库的名称和路径，然后再从 src-openeuler/abcd 仓库fork即可。</li>
 </ol>
+
 <hr>
 <ol start="5">
 <li><strong>
@@ -122,9 +125,9 @@ git config --global http.sslVerify false<br>
 **
  CI未及时触发通常有两种情况：<br>
    
-&emsp; a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；<br>
+  a. 第一种可能是网络原因或系统任务调度原因，导致从代码仓库发出的webhook通知事件没有及时到达目标服务，所以没有触发CI构建；这种情况可以通过在PR评论去评论 /retest 重新触发；<br>
    
-&emsp; b.第二种可能是代码仓库创建以后短时间内提交PR，此时jenkins服务器侧尚未创建CI构建工程，所以触发不到CI构建，评论 /retest 也不生效；这种情况或者稍等一下系统自动建工程，或者联系 <a href="mailto:infra@openeuler.org">infra@openeuler.org</a> 处理。</li>
+  b.第二种可能是代码仓库创建以后短时间内提交PR，此时jenkins服务器侧尚未创建CI构建工程，所以触发不到CI构建，评论 /retest 也不生效；这种情况或者稍等一下系统自动建工程，或者联系 <a href="mailto:infra@openeuler.org">infra@openeuler.org</a> 处理。</li>
 </ol>
 <hr>
 <ol start="11">
@@ -136,9 +139,3 @@ git config --global http.sslVerify false<br>
  如果修改后1小时仍未生效，可联系infra@openeuler.org帮助。</li>
 </ol>
 
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTA0NDYwMl19
--->
