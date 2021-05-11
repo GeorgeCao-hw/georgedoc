@@ -26,12 +26,31 @@ openEuler社区代码仓库的创建、删除管理方式如下：
 
 3. **请问提交PR后出现openeuler-cla/no红色标签，如何处理？**
 
-出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。[签署地址](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)可以在PR评论区找到。如果是个人贡献者请选择“签署个人CLA”，如果是作为企业的员工参与贡献请选择“签署员工CLA”；作为企业员工再签署是时需要使用企业邮箱，比如 xxx@huawei.com 、xxxx@kylinos.cn等。
+出现该标签表示该PR中所包含的commit中，有部分贡献者没有签署openEuler社区的贡献者协议CLA。<a href="https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=">签署地址</a>可以在PR评论区找到。如果是个人贡献者请选择“签署个人CLA”，如果是作为企业的员工参与贡献请选择“签署员工CLA”；作为企业员工再签署是时需要使用企业邮箱，比如 <a href="mailto:xxx@huawei.com">xxx@huawei.com</a> 、xxxx@kylinos.cn等。<br>
 
-CLA检查是使用commit中author邮箱作为检查凭证的。该author邮箱可以通过git log查询到。
-
-如需修改邮箱配置，可在本体通过 git config --global user.name **** 和 git config --global user.email ****修改配置。
-
+CLA检查是使用commit中信息中的commit邮箱作为检查凭证的。该邮箱可以通过git log --pretty=fuller查询到。</li>
+<table>
+<tbody><tr>
+<th>场景</th>
+<th>选择</th>
+<th>处理方案</th>
+</tr>
+<tr>
+<td>commit邮箱和Gitee提交邮箱一致</td>
+<td>统一用该邮箱</td>
+<td>使用该邮箱直接在上述 签署地址 签署CLA即可</td>
+</tr>
+<tr>
+<td rowspan="2">commit邮箱和Gitee提交邮箱不一致</td>
+<td>希望使用commit邮箱签署</td>
+<td>调整Gitee提交邮箱为commit邮箱，在Gitee个人设置页面添加commit邮箱并设置为提交邮箱，然后在上述签署地址 完成CLA签署即可</td>
+</tr>
+<tr>
+<td>希望使用gitee提交邮箱签署</td>
+<td>在git运行的本地通过 git config --global user.name **** 和 git config --global user.email ****修改配置可调整git的commit邮箱信息为gitee的提交邮箱，完成后再进入签署地址进行CLA签署</td>
+</tr>
+</tbody>
+</table>
   
 
 ---
@@ -108,5 +127,5 @@ CI未及时触发通常有两种情况：
 
 如果修改后1小时仍未生效，可联系infra@openeuler.org帮助。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjI3MTE1OV19
+eyJoaXN0b3J5IjpbLTY3NjY4NzI5NSwtNTM2MjcxMTU5XX0=
 -->
