@@ -73,8 +73,7 @@ CLA检查是使用commit中信息中的commit邮箱作为检查凭证的。该�
 <li><strong>请问openEuler社区仓库评论区都支持哪些命令，分别都是什么含义？</strong></li>
 </ol>
 <p>目前社区仓库评论区主要支持的命令:<br>
-<a href="
-https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md">https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md</a></p>
+<a href="https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md">https://gitee.com/openeuler/community/blob/master/en/sig-infrastructure/command.md</a></p>
 <hr>
 <ol start="9">
 <li><strong>请问在华为公司内部使用git clone从码云克隆代码报超时怎么办？( Failed to connect to <a href="http://gitee.com">gitee.com</a> port 443: Timed out )</strong></li>
