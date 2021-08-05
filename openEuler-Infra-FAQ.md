@@ -94,5 +94,5 @@ CI未及时触发通常有两种情况：<br> a. 第一种可能是网络原因�
 <p>请在https://gitee.com/openeuler/community/tree/master/repository 下，修改配置文件openeuler.yaml和src-openeuler.yaml，找到相应的仓库名称和对应的分支，然后修改分支属性。CI-bot会自动修改该属性信息到仓库。<br><br>如果修改后1小时仍未生效，可联系infra@openeuler.org帮助。</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzA4NzYzMl19
+eyJoaXN0b3J5IjpbLTc1MTIzMzMwMywtMTAzMDg3NjMyXX0=
 -->
