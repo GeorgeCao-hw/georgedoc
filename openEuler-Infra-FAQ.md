@@ -107,6 +107,6 @@ CI未及时触发通常有两种情况：<br> a. 第一种可能是网络原因�
   git push origin v2.0 <br>
   本地删除指定标签v2.0：<br>
   git tag -d v2.0 <br>
-  删除远程仓库中指定标签v2.0：(：前为空即删除)<br></p> 仓库开发者（即openEuler社区maintainer有权限push tag到企业仓库如openeuler/infrastructure等）
-  git push origin :refs/tags/v2.0
+  删除远程仓库中指定标签v2.0：(：前为空即删除) 仓库开发者（即openEuler社区maintainer有权限push tag到企业仓库如openeuler/infrastructure等） <br>
+  git push origin :refs/tags/v2.0 <br></p>
 <hr>
