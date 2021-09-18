@@ -98,14 +98,15 @@ CI未及时触发通常有两种情况：<br> a. 第一种可能是网络原因�
 <li><strong>请问如何操作企业仓库中的tag信息？</strong></li>
 </ol>
 <p>当前仓库的所有标签：<br>
-  git tag <br>
-  查看标签详细信息：<br>
-  git show v1.0 <br>
-  给指定的commit打标签：<br>
+ git tag <br>
+  查看标签v2.0详细信息：<br>
+  git show v2.0 <br>
+  给指定的commit打标签v2.0：<br>
   git tag -a v2.0 ea0982sf34 <br>
-  提交单个指定标签：<br>
+  提交单个指定标签v2.0：<br>
   git push origin v2.0 <br>
-  本地删除指定标签：<br>
+  本地删除指定标签v2.0：<br>
   git tag -d v2.0 <br>
-  远程删除仓库中指定标签：(：前为空即删除)<br></p>
+  删除远程仓库中指定标签v2.0：(：前为空即删除)<br></p> 仓库开发者（即openEuler社区maintainer有权限push tag到企业仓库如openeuler/infrastructure等）
+  git push origin :refs/tags/v2.0
 <hr>
