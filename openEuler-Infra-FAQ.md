@@ -93,6 +93,18 @@ CI未及时触发通常有两种情况：<br> a. 第一种可能是网络原因�
 </ol>
 <p>请在https://gitee.com/openeuler/community/tree/master/repository 下，修改配置文件openeuler.yaml和src-openeuler.yaml，找到相应的仓库名称和对应的分支，然后修改分支属性。CI-bot会自动修改该属性信息到仓库。<br><br>如果修改后1小时仍未生效，可联系infra@openeuler.org帮助。</p>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTIzMzMwMywtMTAzMDg3NjMyXX0=
--->
+<ol start="12">
+<li><strong>请问如何操作企业仓库中的tag信息？</strong></li>
+</ol>
+<p>当前仓库的所有标签：<br>
+  git tag <br>
+  查看标签详细信息：<br>
+  git show v1.0 <br>
+  给指定的commit打标签：<br>
+  git tag -a v2.0 ea0982sf34 <br>
+  提交单个指定标签：<br>
+  git push origin v2.0 <br>
+  本地删除指定标签：<br>
+  git tag -d v2.0 <br>
+  远程删除仓库中指定标签：(：前为空即删除)<br></p>
+<hr>
