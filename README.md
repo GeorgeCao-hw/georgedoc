@@ -19,5 +19,21 @@
      python3 script/findDifferentPkgs.py -b script/centos8.2 -c script/euler21.09
      其中-b 后接对比的基础版本RPM包本地目录， -c 后接需要对比版本RPM包的本地目录。
      
+## 统计结果说明：
+在result目录下按照执行工具的时间戳保存单次执行的过程数据和统计数据，如result下1635273197文件加就是linux时间1635273197执行的比较命令，其过程数据和统计数据都在1635273197文件夹中：
+|文件名|内容  |
+|--|--|
+|rpmdiff_detail.txt  |通过rpmdiff对比同名rpm包的执行结果的详细信息，按照rpm包名称分组  |
+| analyze_ret.txt | 根据detail中给出的两包差异信息判断出的两包内容是否相同的结果。记录信息为 包名+same或包名+different  |
+| statistic.txt | 记录的比较的统计结果具体含义见下表 |
+
+|数据项|含义  |
+|--|--|
+|Total RPMs in base OS  |基线base操作系统src.rpm总数  |
+| Total RPMs in compared OS |对比操作系统src.rpm总数  |
+|Count of RPMs with same name and version  | 两操作系统中同名且同版本号的src.rpm包数量 |
+|Same name RPMs that have same content  | 将上述同名同版本的对比，没有做实质修改的包的数量，此处‘实质修改’的含义是rpmdiff工具对比结果中，没有发现有md5☞变更的情况 |
+| Same name PRMs that have diffent content | 将上述同名同版本的对比，有做实质修改的包的数量 |
+
 
 
