@@ -1,4 +1,5 @@
 ---
+这个地址下的邀请链接持续自动刷新： https://gitee.com/openeuler/infrastructure/blob/master/docs/openEuler-Infra-FAQ.md
 
 <hr>
 <ol>
